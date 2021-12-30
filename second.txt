@@ -1,4 +1,4 @@
-int x_telugu=89;
+int x_telugu=90;
     int x_hindi=91;
     int x_english=67;
     int x_maths=89;
