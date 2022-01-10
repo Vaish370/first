@@ -1,0 +1,117 @@
+int x_telugu=90;
+    int x_hindi=91;
+    int x_english=67;
+    int x_maths=89;
+    int x_science=85;
+    int x_social=74;
+
+    
+    int totalMarksOfX=(x_telugu+x_hindi+x_english+x_maths+x_science+x_social);
+    System.out.println("total Marks Of X");
+    System.out.println(totalMarksOfX);
+    double maxMarks=600;
+    double average=(totalMarksOfX/maxMarks)*100;
+    System.out.println("percentage of X");
+    System.out.println(average);
+    
+    
+    
+    
+    int y_telugu=92;
+    int y_hindi=91;
+    int y_english=88;
+    int y_maths=95;
+    int y_science=90;
+    int y_social=89;
+    
+    int totalMarksOfY=(y_telugu+y_hindi+y_english+y_maths+y_science+y_social);
+    System.out.println("total marks of y");
+    System.out.println(totalMarksOfY);
+    double average1=(totalMarksOfY/maxMarks)*100;
+    System.out.println("percentage of y");
+    System.out.println(average1);
+    
+    
+    int z_telugu=78;
+    int z_hindi=75;
+    int z_english=70;
+    int z_maths=92;
+    int z_science=63;
+    int z_social=85;
+    int totalMarksOfZ=(z_telugu+z_hindi+z_english+z_maths+z_science+z_social);
+    System.out.println("total marks of z");
+    System.out.println(totalMarksOfZ);
+    double average2=(totalMarksOfZ/maxMarks)*100;
+    System.out.println("percentage of z");
+    System.out.println(average2);
+    
+    
+    int p_telugu=92;
+    int p_hindi=91;
+    int p_english=85;
+    int p_maths=90;
+    int p_science=89;
+    int p_social=89;
+    int totalMarksOfP=(p_telugu+p_hindi+p_english+p_maths+p_science+p_social);
+    System.out.println("total marks of p");
+    System.out.println(totalMarksOfP);
+    double average3=(totalMarksOfP/maxMarks)*100;
+    System.out.println("percentage of p");
+    System.out.println(average3);
+    
+    
+    int q_telugu=93;
+    int q_hindi=89;
+    int q_english=87;
+    int q_maths=90;
+    int q_science=94;
+    int q_social=92;
+    int totalMarksOfQ=(q_telugu+q_hindi+q_english+q_maths+q_science+q_social);
+    System.out.println("total marks of q");
+    System.out.println(totalMarksOfQ);
+    double average4=(totalMarksOfQ/maxMarks)*100;
+    System.out.println("percentage of q");
+    System.out.println(average4);
+    
+    if(average>=80) {
+        System.out.println("Grade A");
+    } else if(average>=70 && average<80){
+        System.out.println("Grade B");
+    } else {
+        System.out.println("Failed");
+    }
+    
+    
+    if(average1>=80) {
+        System.out.println("Grade A");
+    } else if(average1>=70 && average1<80){
+        System.out.println("Grade B");
+    } else {
+        System.out.println("Failed");
+    }
+    
+    
+   if(average2>=80) {
+        System.out.println("Grade A");
+    } else if(average2>=70 && average2<80){
+        System.out.println("Grade B");
+    } else {
+        System.out.println("Failed");
+    } 
+    
+    
+   if(average3>=80) {
+        System.out.println("Grade A");
+    } else if(average3>=70 && average3<80){
+            System.out.println("Grade B");
+    } else {
+        System.out.println("Failed");
+    } 
+    
+    if(average4>=80) {
+        System.out.println("Grade A");
+    } else if(average4>=70 && average4<80){
+        System.out.println("Grade B");
+    } else {
+        System.out.println("Failed");
+    }
