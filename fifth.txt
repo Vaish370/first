@@ -1,0 +1,12 @@
+ int bankBalance=12000;
+        int salary=2500;
+        int expenses=1200;
+        int savings=salary-expenses;
+        int months=0;
+            while (bankBalance<=20000){
+                months=months+1;
+                bankBalance=bankBalance+savings;
+                System.out.println(months);
+                System.out.println(bankBalance);
+                
+            }
